@@ -1,0 +1,194 @@
+
+body {
+    color: #979797;
+    background-color: #2c2c2c;
+}
+
+.block-theme,
+.card,
+.card-header,
+.card-body,
+.modal-content,
+.list-group-item,
+.dropdown-menu {
+    color: #979797;
+    background-color: #2c2c2c;
+    border-color: #444444;
+}
+
+
+
+
+
+/* ===== СТИЛИ ДЛЯ ТАБЛИЦ ===== */
+.table {
+    color: #979797;
+    background-color: #2c2c2c;
+    border-color: #444444;
+}
+
+.table td,
+.table th {
+    border-color: #444444;
+    background-color: #2c2c2c;
+    color: #979797;
+}
+
+.table thead th {
+    background-color: #2c2c2c;
+    color: #979797;
+    border-bottom-color: #555555;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #2a2a2a !important;
+    color: #ffffff;
+}
+
+.table-hover tbody tr:hover td {
+    background-color: #2a2a2a !important;
+    color: #ffffff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #262626;
+}
+
+/* Для bootstrap таблиц с классами */
+.table-bordered {
+    border-color: #444444;
+}
+
+
+
+
+
+
+
+
+
+
+.text-muted {
+    color: #979797 !important;
+}
+
+.text-primary {
+    color: #6779fe !important;
+}
+
+.btn-primary {
+    background-color: #6779fe !important;
+}
+
+.btn-primary:hover {
+    background-color: #8493ff !important;
+}
+
+a {
+    color: #6779fe !important;
+}
+
+a:hover {
+    color: #8493ff !important;
+}
+
+#toggle-btn {
+    color: #979797;
+}
+
+#toggle-btn:hover {
+    color: #444444;
+    background-color: #cdcdcd;
+}
+
+.btn-outline-secondary {
+    color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #e0e0e0;
+    color: #1a1a1a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Стили для модальных окон */
+.modal-header,
+.modal-footer {
+    border-color: #444444;
+}
+
+.form-control,
+.form-select {
+    background-color: #2d2d2d;
+    border-color: #555555;
+    color: #e0e0e0;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+    border-color: #6ea8fe;
+}
+
+
+
+
+
+
+/* Стили для бургер-меню в темной теме */
+.hamburger-menu {
+    background-color: #1e1e1e;
+    border-right: 1px solid #444;
+}
+
+.hamburger-btn {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+.hamburger-btn:hover {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+
+
+/* Стили для бургер-меню в темной теме */
+@media (max-width: 750px) {
+    .hamburger-btn {
+        background-color: #2c2c2c;
+        color: #e0e0e0;
+        border-color: #444;
+    }
+    
+    .hamburger-btn:hover {
+        background-color: #3a3a3a;
+    }
+    
+    .sidebar {
+        background-color: #2c2c2c !important;
+    }
+    
+    .sidebar-overlay {
+        background: rgba(0,0,0,0.7);
+    }
+}

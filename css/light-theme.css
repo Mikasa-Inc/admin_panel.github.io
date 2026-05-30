@@ -1,0 +1,17 @@
+.block-theme {
+    color: black;
+    background-color: white;
+}
+
+
+/* @media (max-width: 750px) {
+    .hamburger-btn {
+        background-color: #fff;
+        color: #333;
+        border-color: #dee2e6;
+    }
+    
+    .hamburger-btn:hover {
+        background-color: #f8f9fa;
+    }
+} */
